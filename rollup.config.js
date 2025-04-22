@@ -6,7 +6,7 @@ import image from '@rollup/plugin-image';
 export default {
   input: "src/index.js",
   output: {
-    file: 'dist/main.js',
+    file: 'dist/bundle.js',
     format: 'es',
     sourcemap: true,
   },
